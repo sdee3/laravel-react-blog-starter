@@ -1,0 +1,31 @@
+.alert {
+  border-radius: 4px;
+  height: 0;
+  margin-bottom: 0;
+  padding: 0;
+  text-align: center;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-weight: bold;
+
+  &--visible {
+    height: 30px;
+    transition: all 0.5s ease;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+  }
+
+  &--success {
+    color: $white;
+    background-color: $alertGreen;
+    border-color: #c3e6cb;
+  }
+
+  &--danger {
+    color: $white;
+    background-color: $alertRed;
+    border-color: #f5c6cb;
+  }
+}

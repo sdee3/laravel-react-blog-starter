@@ -1,0 +1,35 @@
+.button {
+  background: $button-color;
+  border: 1px solid $black;
+  border-radius: 4px;
+  color: $text-default;
+  cursor: pointer;
+  padding: 0.7rem 1.4rem;
+  text-transform: uppercase;
+
+  &:focus,
+  &:hover {
+    outline: none;
+  }
+
+  &--small {
+    padding: 0.2rem 0.5rem;
+  }
+
+  &--save {
+    padding: 0.2rem 0.5rem;
+    margin-left: 1rem;
+  }
+}
+
+.editButton {
+  background: $button-color;
+  border: 1px solid $black;
+  border-radius: 8px;
+  color: $text-default;
+  cursor: pointer;
+  padding: 0.2rem 0.5rem;
+  text-transform: uppercase;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}

@@ -1,0 +1,28 @@
+.input-group-prepend {
+  display: flex;
+  width: 100%;
+  align-items: center;
+
+  &__pre-input-text {
+    background: lighten($border-grey, 10);
+    border: 1px solid $border-grey;
+    border-radius: 2px;
+    box-sizing: border-box;
+    border-right: unset;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    user-select: none;
+  }
+
+  input {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    width: 100%;
+  }
+}
